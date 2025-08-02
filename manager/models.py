@@ -13,7 +13,7 @@ Author: Liora Milbaum
 from . import database
 
 
-class Repo(database.db.Model):
+class Repo(database.Base):
     """Registered repository."""
 
     __tablename__ = "repos"
